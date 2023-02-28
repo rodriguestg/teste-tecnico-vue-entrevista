@@ -4,9 +4,9 @@
       <img alt="Vue logo" src="./assets/logo.png">
       <nav>
         <ul class="btn-group">
-          <router-link class="btn btn-primary" to="/">Página Inicial </router-link>
-          <router-link class="btn btn-primary" to="/products">Clientes </router-link>
-          <router-link class="btn btn-primary" to="/products">Produtos </router-link>
+          <router-link class="btn btn-primary" to="/">Página Inicial</router-link>
+          <router-link class="btn btn-primary" to="/clients">Clientes</router-link>
+          <router-link class="btn btn-primary" to="/products">Produtos</router-link>
         </ul>
       </nav>
     </div>
