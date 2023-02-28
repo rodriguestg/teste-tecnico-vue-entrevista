@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import { createRouter, createWebHashHistory } from 'vue-router';
 import PageProducts from './pages/Products.vue'
-// import RegistrationForm from './components/RegistrationForm.vue';
+import Home from './pages/Home.vue';
 
 // Vue.use(VueRouter);
 
@@ -11,6 +11,7 @@ const router = createRouter({
   routes: [
     {
       path: '/',
+      component: Home,
     },
     {
       path: '/products',
