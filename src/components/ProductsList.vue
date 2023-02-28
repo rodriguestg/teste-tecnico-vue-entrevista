@@ -38,7 +38,7 @@
 </template>
 
 <script>
-import productsMock from '../components/dataMocks/products.mock'
+import productsMock from './dataMocks/products.mock'
 
 export default {
   name: 'RegistrationForm',

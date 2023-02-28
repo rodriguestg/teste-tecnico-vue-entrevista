@@ -1,17 +1,16 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <router-view></router-view>
-  </div>
+  <RegistrationForm msg="Cadastro de Produtos" />
 </template>
 
-
 <script>
+import RegistrationForm from '../components/ProductsList.vue'
 
 export default {
-  name: 'App',
+  name: 'ProductsPage',
+  components: {
+    RegistrationForm
+  }
 }
-
 </script>
 
 <style>
